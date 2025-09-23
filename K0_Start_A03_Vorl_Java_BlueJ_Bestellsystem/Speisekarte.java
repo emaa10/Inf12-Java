@@ -8,7 +8,7 @@ import java.util.ArrayList;
 class Speisekarte
 {
     /** Feld der Speisekarteneinträge */
-    private ArrayList<Speisekarteneintrag> einträge;
+    public ArrayList<Speisekarteneintrag> einträge;
     
     /**
      * Konstruktor für Objekte der Klasse Speisekarte
@@ -50,6 +50,10 @@ class Speisekarte
         return null;
     }
 
-
+    void SpeisekarteAusgeben() {
+        for(Speisekarteneintrag e: einträge) {
+            System.out.println(e.NameGeben() + " - " + e.PreisGeben());
+        }
+    }
 
 }

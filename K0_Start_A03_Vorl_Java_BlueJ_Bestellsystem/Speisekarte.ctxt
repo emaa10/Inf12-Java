@@ -10,4 +10,6 @@ comment2.text=\r\n\ Hinzuf\u00FCgen\ eines\ Gerichts\ zur\ Karte\r\n\ @param\ na
 comment3.params=name
 comment3.target=Speisekarteneintrag\ SpeisekarteneintragGeben(java.lang.String)
 comment3.text=\r\n\ Gibt\ einen\ Speisekarteneintrag\ mit\ einem\ bestimmten\ Namen\ zur\u00FCck\r\n\ @param\ name\ Name\ des\ Eintrags\r\n\ @return\ zugeh\u00F6riger\ Speisekarteneintrag\r\n
-numComments=4
+comment4.params=
+comment4.target=void\ SpeisekarteAusgeben()
+numComments=5

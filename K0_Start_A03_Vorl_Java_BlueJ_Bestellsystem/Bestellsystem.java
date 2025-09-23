@@ -60,7 +60,9 @@ class Bestellsystem
         System.out.println("Gesamt: "+summe);
     }
 
-  
+    void SpeisekarteAusgeben() {
+        karte.SpeisekarteAusgeben();
+    }
 
 
 
