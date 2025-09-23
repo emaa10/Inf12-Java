@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Speisekarteneintrag
+comment0.text=\r\n\ Klasse\ zur\ Beschreibung\ eines\ Speisekarteneintrags\r\n\ \r\n\ @author\ Klaus\ Reinold\ \r\n\ @version\ 1.0\r\n
+comment1.params=nameNeu\ preisNeu
+comment1.target=Speisekarteneintrag(java.lang.String,\ double)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Speisekarteneintrag\r\n
+comment2.params=
+comment2.target=java.lang.String\ NameGeben()
+comment2.text=\r\n\ Gibt\ den\ Namen\ zur\u00FCck\r\n\ @return\ Name\ des\ Eintrags\r\n
+comment3.params=
+comment3.target=double\ PreisGeben()
+comment3.text=\r\n\ Gibt\ den\ Preis\ zur\u00FCck\r\n\ @return\ Preis\ des\ Eintrags\r\n
+numComments=4

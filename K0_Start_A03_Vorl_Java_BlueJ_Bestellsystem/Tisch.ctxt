@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Tisch
+comment0.text=\r\n\ Klasse\ zur\ Verwaltung\ der\ Bestellungen\ eines\ Tisches\r\n\ \r\n\ @author\ Klaus\ Reinold\r\n\ @version\ 0.9\r\n
+comment1.params=
+comment1.target=Tisch()
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Tisch\r\n
+comment2.params=artikel\ anzahl
+comment2.target=void\ Bestellen(java.lang.String,\ int)
+comment2.text=\r\n\ Bestellen\ eines\ Artikels\r\n\ @param\ artikel\ Name\ des\ Artikes\r\n\ @param\ anzahl\ Anzahl\ der\ Bestellungen\ des\ Artikels\r\n
+comment3.params=
+comment3.target=java.util.ArrayList\ BestelltePostenGeben()
+comment3.text=\r\n\ Gibt\ die\ bestellten\ Posten\ eines\ Tisches\ zur\u00FCck\r\n\ @return\ Feld\ der\ bestellten\ Posten\r\n
+numComments=4

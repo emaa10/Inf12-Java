@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Posten
+comment0.text=\r\n\ Klasse\ f\u00FCr\ einen\ bestellten\ Posten\r\n\ \r\n\ @author\ Klaus\ Reinold\ \r\n\ @version\ 0.9\r\n
+comment1.params=artikelNeu\ anzahlNeu
+comment1.target=Posten(java.lang.String,\ int)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Posten\r\n\ @param\ artikelNeu\ Artikel\r\n\ @param\ anzahlNeu\ Anzahl\r\n
+comment2.params=
+comment2.target=java.lang.String\ ArtikelGeben()
+comment2.text=\r\n\ Gibt\ den\ Namen\ des\ bestellten\ Artikels\ zur\u00FCck\r\n\ @return\ Name\ des\ Artikels\r\n
+comment3.params=
+comment3.target=int\ AnzahlGeben()
+comment3.text=\r\n\ Gibt\ die\ Anzahl\ der\ Bestellungen\ des\ Artikels\ zur\u00FCck\r\n\ @return\ Anzahl\ der\ Bestellungen\ des\ Artikels\r\n
+numComments=4
