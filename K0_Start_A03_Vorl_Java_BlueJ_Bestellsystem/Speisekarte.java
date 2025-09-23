@@ -51,6 +51,7 @@ class Speisekarte
     }
 
     void SpeisekarteAusgeben() {
+        System.out.println("\nSpeisekarte:");
         for(Speisekarteneintrag e: einträge) {
             System.out.println(e.NameGeben() + " - " + e.PreisGeben());
         }
