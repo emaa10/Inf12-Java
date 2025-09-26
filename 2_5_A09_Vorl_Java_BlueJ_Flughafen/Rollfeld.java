@@ -61,8 +61,11 @@ public class Rollfeld
     }
     
     public void StartVorziehen(int neuerIndex, Flugzeug flugzeug) {
+        flugzeuge.add(neuerIndex, flugzeug);
         for(int i = 0; i<neuerIndex; i++) {
             flugzeuge.get(i).Vorrücken();
         }
+        
+        flugzeug.PositionSetzen(660- neuerIndex * 100, 400); 
     }
 }
