@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Rollfeld
+comment0.text=\r\n\ Rollfeld\ an\ einem\ Flughafen\r\n\ \r\n\ @author\ Johannes\ Neumeyer\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Rollfeld()
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Rollfeld\r\n
+comment2.params=
+comment2.target=void\ RollfeldErstellen()
+comment2.text=\r\n\ Erstellt\ das\ Rollfeld.\r\n
+comment3.params=flugzeug
+comment3.target=void\ InWarteschlangeEinreihen(Flugzeug)
+comment4.params=
+comment4.target=void\ StarterlaubnisErteilen()
+comment5.params=
+comment5.target=void\ AlleVorr\u00FCcken()
+comment6.params=neuerIndex\ flugzeug
+comment6.target=void\ StartVorziehen(int,\ Flugzeug)
+numComments=7

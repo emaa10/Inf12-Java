@@ -1,0 +1,9 @@
+Bestandteile aus dem Projekt „Graphic and Games“: (c) Cornelsen/Peter Brichzin, Florian Janus, Franz Jetzinger, Johannes Neumeyer, Klaus Reinold, Albert Wiedemann
+
+
+Code und Programmdateien des Projekts „Graphic and Games“ dürfen ausschließlich im Rahmen des Unterrichts verwendet werden.
+
+Betroffene Dateien:
+* Java, Stride: alle .class-Dateien mit $ und Zahl am Namensende (z. B. Ereignisbehandlung$1.class)
+* Python: graphics_and_games_klassen.py
+* Swift: Datei graphik.swift im Verzeichnis Sources
