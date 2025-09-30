@@ -23,6 +23,8 @@ class RumpfSymbol
     private int y;
     /** Anzeige */
     private JComponent anzeige;
+    
+    private RumpfSymbol nachfolger;
 
     /**
      * Standardkonstruktor für Objekte der Klasse KASSENSYMBOL.
@@ -96,5 +98,17 @@ class RumpfSymbol
     {
         (Oberflaeche.FensterGeben()).remove(anzeige);
         (Oberflaeche.FensterGeben()).repaint();
+    }
+    
+    RumpfSymbol nachfolgerGeben() {
+        return nachfolger;
+    }
+    
+    void nachfolgerSetzen(RumpfSymbol r) {
+        nachfolger = r;
+    }
+    
+    String InfosGeben() {
+        return "X: " + String.valueOf(x) + " Y: " + String.valueOf(y);
     }
 }

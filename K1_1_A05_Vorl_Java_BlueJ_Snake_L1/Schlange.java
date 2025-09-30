@@ -12,6 +12,7 @@ class Schlange
     private KopfSymbol kopf;
     /** Darstellung des Rumpfs */
     private ArrayList<RumpfSymbol> rumpf;
+    private Warteschlange w;
 
     /**
      * Legt die Schlange an und stellt Anfangsposition und -bewgungsrichtung ein.
@@ -24,12 +25,11 @@ class Schlange
         kopf = new KopfSymbol();
         kopf.AusrichtungSetzen(richtung);
         kopf.PositionSetzen(x, y);
-        rumpf = new ArrayList<RumpfSymbol>();
+        w = new Warteschlange();
         for (int i = 0; i < 5; i++)
         {
-            RumpfSymbol r;
-            r = new RumpfSymbol();
-            rumpf.add(r);
+            w.einfügen(new RumpfSymbol());
+            RumpfSymbol r = w.entfernen();
             switch (richtung)
             {
                 case 'O':
@@ -79,11 +79,12 @@ class Schlange
         kopf.PositionSetzen(x, y);
         if (!verlängern)
         {
-            rumpf.get(0).Entfernen();
-            rumpf.remove(0);
+            RumpfSymbol r = w.entfernen();
+            r.Entfernen();
         }
-        rumpf.add(new RumpfSymbol ());
-        rumpf.get(rumpf.size()-1).PositionSetzen (xalt, yalt);
+        w.einfügen(new RumpfSymbol());
+        RumpfSymbol r = w.entfernen();
+        r.PositionSetzen (xalt, yalt);
     }
 
     /**
@@ -128,13 +129,14 @@ class Schlange
      */
     boolean PunktInRumpf(int x, int y)
     {
-        for (RumpfSymbol r: rumpf)
-        {
-            if ((x == r.XPositionGeben()) && (y == r.YPositionGeben()))
-            {
-                return true;
-            }
-        }
         return false;
+        // for (RumpfSymbol r: rumpf)
+        // {
+            // if ((x == r.XPositionGeben()) && (y == r.YPositionGeben()))
+            // {
+                // return true;
+            // }
+        // }
+        // return false;
     }
 }
