@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Pilz
+comment0.text=\r\n\ Verwaltet\ einen\ Pilz.\r\n\ Der\ Pilz\ l\u00E4\u00DFt\ die\ Schlange\ 10\ Z\u00FCge\ lang\ wachsen.\r\n\ @author\ Albert\ Wiedemann\r\n\ @version\ 1.0\r\n
+comment1.params=s
+comment1.target=Pilz(Spiel)
+comment1.text=\r\n\ Legt\ einen\ Pilz\ an\ zuf\u00E4lliger,\ freier\ Stelle\ an.\r\n\ @param\ s\ das\ Spiel,\ in\ dem\ der\ Pilz\ erzeut\ werden\ soll.\r\n
+comment2.params=
+comment2.target=void\ Aktion()
+comment2.text=\r\n\ F\u00FChrt\ die\ Aktion\ des\ Pilzes\ aus\r\n
+numComments=3

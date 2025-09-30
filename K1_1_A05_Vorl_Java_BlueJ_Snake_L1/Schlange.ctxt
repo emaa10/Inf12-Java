@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Schlange
+comment0.text=\r\n\ Die\ Verwaltungsklasse\ der\ Schlange.\r\n\ \r\n\ @author\ Albert\ Wiedemann\ \r\n\ @version\ 1.0\r\n
+comment1.params=x\ y\ richtung
+comment1.target=Schlange(int,\ int,\ char)
+comment1.text=\r\n\ Legt\ die\ Schlange\ an\ und\ stellt\ Anfangsposition\ und\ -bewgungsrichtung\ ein.\r\n\ @param\ x\:\ x-Koordinate\ der\ Startposition\ des\ Schlangenkopfs\r\n\ @param\ y\:\ y-Koordinate\ der\ Startposition\ des\ Schlangenkopfs\r\n\ @param\ richtung\:\ Startrichtung\ des\ Schlangenkopfs\r\n
+comment2.params=verl\u00E4ngern
+comment2.target=void\ Bewegen(boolean)
+comment2.text=\r\n\ Bewegt\ die\ Schlange\ ein\ Feld\ in\ der\ eingestellten\ Richtung.\r\n\ @param\ verl\u00E4ngern\ wenn\ wahr,\ wird\ das\ letzte\ Rumpfelement\ nicht\ entfernt.\r\n
+comment3.params=richtungNeu
+comment3.target=void\ RichtungSetzen(char)
+comment3.text=\r\n\ Setzt\ die\ Bewegunsrichtung\ der\ Schlange.\r\n\ @param\ richtungNeu\ (neue)\ Bewegungsrichtung\r\n
+comment4.params=
+comment4.target=int\ XPositionGeben()
+comment4.text=\r\n\ Gibt\ die\ x-Position\ des\ Schlangenkopfs\ zur\u00FCck.\r\n\ @return\ x-Position\ des\ Schlangenkopfs\r\n
+comment5.params=
+comment5.target=int\ YPositionGeben()
+comment5.text=\r\n\ Gibt\ die\ y-Position\ des\ Schlangenkopfs\ zur\u00FCck.\r\n\ @return\ y-Position\ des\ Schlangenkopfs\r\n
+comment6.params=
+comment6.target=boolean\ KopfInRumpf()
+comment6.text=\r\n\ Prueft\ ob\ der\ Schlangenkopf\ auf\ der\ Position\ eines\ Rumpfsymbols\ ist,\ d.h.sich\ die\ Schlange\ selbst\ gebissen\ hat.\r\n\ return\ wahr,\ wenn\ der\ Kopf\ im\ Rumpf\ liegt.\r\n
+comment7.params=x\ y
+comment7.target=boolean\ PunktInRumpf(int,\ int)
+comment7.text=\r\n\ Prueft\ ob\ der\ angegebe\ Punkt\ auf\ der\ Position\ eines\ Rumpfsymbols\ ist.\r\n\ @return\ wahr,\ wenn\ der\ Punkt\ zu\ einem\ Rumpfelement\ geh\u00F6rt.\r\n
+numComments=8

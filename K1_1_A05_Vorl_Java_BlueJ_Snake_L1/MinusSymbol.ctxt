@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=MinusSymbol
+comment0.text=\r\n\ Das\ Symbol\ eines\ Minuszeichens.\r\n\ Das\ Fenster\ wird\ bei\ Bedarf\ generiert.\r\n\r\n\ @author\ Albert\ Wiedemann\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=MinusSymbol()
+comment1.text=\r\n\ Standardkonstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ MinusSymbol.\r\n\ Das\ Fenster\ wird\ bei\ Bedarf\ angelegt.\r\n
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+numComments=3

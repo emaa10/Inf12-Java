@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Apfel
+comment0.text=\r\n\ Verwaltet\ einen\ Apfel.\r\n\ Der\ Apfel\ gibt\ einen\ Bonus\ von\ 200\ Punkten.\r\n\ \r\n\ @author\ Albert\ Wiedemann\r\n\ @version\ 1.0\r\n
+comment1.params=s
+comment1.target=Apfel(Spiel)
+comment1.text=\r\n\ Legt\ einen\ Apfel\ an\ zuf\u00E4lliger,\ freier\ Stelle\ an.\r\n\ @param\ s\ das\ Spiel,\ in\ dem\ der\ Apfel\ erzeut\ werden\ soll.\r\n
+comment2.params=
+comment2.target=void\ Aktion()
+comment2.text=\r\n\ F\u00FChrt\ die\ Aktion\ des\ Apfels\ aus\r\n
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Minus
+comment0.text=\r\n\ Verwaltet\ ein\ Minuszeichen.\r\n\ Das\ Minuszeichen\ bremst\ die\ Geschwindigkeit\ der\ Schlange\ f\u00FCr\ 100\ Z\u00FCge.\r\n\ @author\ Albert\ Wiedemann\r\n\ @version\ 1.0\r\n
+comment1.params=s
+comment1.target=Minus(Spiel)
+comment1.text=\r\n\ Legt\ ein\ Minussymbol\ an\ zuf\u00E4lliger,\ freier\ Stelle\ an.\r\n\ @param\ s\ das\ Spiel,\ in\ dem\ das\ Minussymbol\ erzeut\ werden\ soll.\r\n
+comment2.params=
+comment2.target=void\ Aktion()
+comment2.text=\r\n\ F\u00FChrt\ die\ Aktion\ des\ Minusfelds\ aus\r\n
+numComments=3

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SonderFeld
+comment0.text=\r\n\ Verwaltet\ einen\ allgemeines\ Sonderfeld.\r\n\ \r\n\ @author\ Albert\ Wiedemann\r\n\ @version\ 1.0\r\n
+comment1.params=s
+comment1.target=SonderFeld(Spiel)
+comment1.text=\r\n\ Speichert\ die\ Referenz\ auf\ das\ Spiel.\r\n\ @param\ s\ das\ Spiel,\ in\ dem\ der\ Apfel\ erzeut\ werden\ soll.\r\n
+comment2.params=
+comment2.target=void\ Zuf\u00E4lligPositionieren()
+comment2.text=\r\n\ Positioniert\ das\ Sonderfeld\ an\ zuf\u00E4lliger,\ freier\ Stelle.\r\n
+comment3.params=
+comment3.target=int\ XPositionGeben()
+comment3.text=\r\n\ Gibt\ die\ x-Position\ des\ Sonderfelds\ zur\u00FCck.\r\n\ @return\ x-Position\ des\ Sonderfelds\r\n
+comment4.params=
+comment4.target=int\ YPositionGeben()
+comment4.text=\r\n\ Gibt\ die\ y-Position\ des\ Sonderfelds\ zur\u00FCck.\r\n\ @return\ y-Position\ des\ Sonderfelds\r\n
+comment5.params=
+comment5.target=void\ Aktion()
+comment5.text=\r\n\ F\u00FChrt\ die\ Aktion\ des\ Sonderfelds\ aus.\r\n\ Muss\ in\ den\ Unterklassen\ \u00FCberschrieben\ werden\r\n
+numComments=6
