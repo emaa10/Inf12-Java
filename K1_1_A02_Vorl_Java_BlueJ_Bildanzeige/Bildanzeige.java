@@ -9,9 +9,7 @@ public class Bildanzeige extends JFrame implements ActionListener
     private JButton button;
     private ImageIcon image;
 
-    //Hier werden zwei einzelne Bilder verwaltet. Ersetzen durch Warteschlange!
-    private Bild bild1;
-    private Bild bild2;
+    private Warteschlange w=new Warteschlange();
 
     Bildanzeige() 
     {
@@ -19,13 +17,16 @@ public class Bildanzeige extends JFrame implements ActionListener
         setSize(400, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        //Hier ersetzen durch Warteschlange mit Bildern
-        bild1=new Bild("bild1.jpg");
-        bild2=new Bild("bild2.jpg");
+
+        w.einfügen(new Bild("bild1.jpg"));
+        w.einfügen(new Bild("bild2.jpg"));
+        w.einfügen(new Bild("bild3.jpg"));
+        w.einfügen(new Bild("bild4.jpg"));
+        w.einfügen(new Bild("bild5.jpg"));
 
         // Erstelle das Label mit dem ersten Bild
-        // Stattdessen müsste das erste Bild aus der Warteschlange geholt werden. 
-        String name = bild1.NameGeben();
+        Bild b = w.entfernen();
+        String name = b.NameGeben();
         image = new ImageIcon(name);
         label = new JLabel(image);
         add(label, BorderLayout.CENTER);
@@ -43,10 +44,8 @@ public class Bildanzeige extends JFrame implements ActionListener
     {
         if (event.getSource() == button) 
         {
-            // Ersetze das erste Bild durch das zweite Bild
-            // Stattdessen müsste das nächste Bild aus der Warteschlange geholt werden.
-            Bild nächstes = bild2;
-            String name = nächstes.NameGeben();
+            Bild b = w.entfernen();
+            String name = b.NameGeben();
             image = new ImageIcon(name);
             label.setIcon(image);
 

@@ -9,6 +9,7 @@
 {
     /** Dateiname */
     private String name;
+    private Bild nachfolger;
     
     //Die Nachfolgerverwaltung fehlt noch.
      
@@ -19,6 +20,7 @@
     Bild(String s)
     {
         name = "Bilder/" + s;
+        nachfolger = null;
     }
     
      /**
@@ -36,5 +38,13 @@
     public String NameGeben()
     {
         return name;
+    }
+    
+    public void nachfolgerSetzen(Bild b) {
+        nachfolger = b;
+    }
+    
+    public Bild nachfolgerGeben() {
+        return nachfolger;
     }
 }

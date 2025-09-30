@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Warteschlange
+comment1.params=
+comment1.target=Warteschlange()
+comment2.params=b
+comment2.target=void\ einf\u00FCgen(Bild)
+comment3.params=
+comment3.target=Bild\ entfernen()
+comment4.params=
+comment4.target=void\ informationenAusgeben()
+numComments=5
