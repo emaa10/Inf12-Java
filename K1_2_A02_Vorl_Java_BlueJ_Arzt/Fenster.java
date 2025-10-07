@@ -79,7 +79,7 @@ class Fenster extends Frame {
         labelÜberschrift.setFont(new Font("MS Sans Serif", Font.PLAIN, 17));
         fenster.add(labelÜberschrift);
         labelUnterüberschrift.setBounds(8, 32, 150, 16);
-        labelUnterüberschrift.setText("Praxis Dr. Ted Tanus");
+        labelUnterüberschrift.setText("Praxis Dr. Ted Anus");
         labelUnterüberschrift.setFont(new Font("MS Sans Serif", Font.BOLD, 13));
         fenster.add(labelUnterüberschrift);
         knopfEinfügen.setBounds(180, 75, 81, 33);
@@ -88,7 +88,7 @@ class Fenster extends Frame {
             {
                 public void actionPerformed(ActionEvent evt) 
                 {
-                    w.Einfügen(new Patient(textfeldEinfügen.getText()));
+                    w.Einfügen(new Knoten(new Patient(textfeldEinfügen.getText())));
                 }
             });
         fenster.add(knopfEinfügen);
@@ -101,11 +101,11 @@ class Fenster extends Frame {
             {
                 public void actionPerformed(ActionEvent evt) 
                 {
-                    Patient entfernter;
+                    Knoten entfernter;
                     entfernter=w.Entfernen();
                     if (entfernter!=null)
                     {
-                        labelNächster.setText("Beim Arzt: "+entfernter.NameGeben());
+                        labelNächster.setText("Beim Arzt: "+entfernter.patient.NameGeben());
                     }
                     else
                     {

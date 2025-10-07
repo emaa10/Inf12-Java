@@ -10,9 +10,6 @@ class Patient
     /** Name des Patienten */
     private String name;
 
-    /** Verwaltung des nachfolgenden Patienten in der Warteschlange. */
-    private Patient nachfolger;
-
     /**
      * Konstruktor des Patienten
      * @param s Name des Patienten
@@ -20,24 +17,6 @@ class Patient
     Patient(String s)
     {
         name = s;
-    }
-
-    /**
-     * Nachfolger des Patienten setzen
-     * @param nf neuer Nachfolger
-     */
-    void NachfolgerSetzen(Patient nf)
-    {
-        nachfolger = nf;
-    }
-
-    /**
-     * Gibt den Nachfolger des Patienten aus.
-     * @return Nachfolger
-     */
-    Patient NachfolgerGeben()
-    {
-        return nachfolger;
     }
 
     /**

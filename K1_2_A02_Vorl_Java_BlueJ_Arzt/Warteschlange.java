@@ -8,10 +8,10 @@
 class Warteschlange
 {
     /** erster Patient der Warteschlange */
-    private Patient anfang;
+    private Knoten anfang;
 
     /** letzter Patient der Warteschlange */
-    private Patient ende;
+    private Knoten ende;
 
     /**
      * Konstruktor der Warteschlange
@@ -27,26 +27,26 @@ class Warteschlange
      * @param patientNeu neuer Patient
      * 
      */
-    void Einfügen(Patient patientNeu)
+    void Einfügen(Knoten knotenNeu)
     {
         if (anfang == null)
         {
-            anfang = patientNeu;
+            anfang = knotenNeu;
         }
         else
         {
-            ende.NachfolgerSetzen(patientNeu);
+            ende.NachfolgerSetzen(knotenNeu);
         }
-        ende = patientNeu;
+        ende = knotenNeu;
     }
 
     /**
      * Entfernt den ersten Patient aus der Warteschlange und gibt ihn zurück.
      * @return bisheriger erster Patient 
      */
-    Patient Entfernen()
+    Knoten Entfernen()
     {
-        Patient p=anfang;
+        Knoten k=anfang;
         if (anfang != null)
         {
             if (anfang == ende)
@@ -59,7 +59,7 @@ class Warteschlange
                 anfang=anfang.NachfolgerGeben();
             }
         }
-        return p;
+        return k;
     }
 
     /**
