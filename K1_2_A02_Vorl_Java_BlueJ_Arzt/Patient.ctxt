@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Patient
+comment0.text=\r\n\ Beschreibung\ der\ Klasse\ Patient\r\n\ \r\n\ @author\ Klaus\ Reinold\ \r\n\ @version\ 0.9\r\n
+comment1.params=s
+comment1.target=Patient(java.lang.String)
+comment1.text=\r\n\ Konstruktor\ des\ Patienten\r\n\ @param\ s\ Name\ des\ Patienten\r\n
+comment2.params=nf
+comment2.target=void\ NachfolgerSetzen(Patient)
+comment2.text=\r\n\ Nachfolger\ des\ Patienten\ setzen\r\n\ @param\ nf\ neuer\ Nachfolger\r\n
+comment3.params=
+comment3.target=Patient\ NachfolgerGeben()
+comment3.text=\r\n\ Gibt\ den\ Nachfolger\ des\ Patienten\ aus.\r\n\ @return\ Nachfolger\r\n
+comment4.params=
+comment4.target=void\ InformationAusgeben()
+comment4.text=\r\n\ Gibt\ Information\ \u00FCber\ den\ Patienten\ aus.\r\n
+comment5.params=
+comment5.target=java.lang.String\ NameGeben()
+comment5.text=\r\n\ Gibt\ den\ Namen\ des\ Patienten\ aus\r\n\ @return\ Name\ des\ Patienten\r\n
+numComments=6

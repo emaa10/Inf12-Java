@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Fenster
+comment0.text=\r\n\r\n\ Oberfl\u00E4che\ zur\ Verwaltung\ der\ Warteschlange\r\n\ Die\ Klasse\ wurde\ mit\ einer\ geeigneten\ Entwicklungsumgebung\ f\u00FCr\ grafische\ Oberfl\u00E4chen\ erstellt.\r\n\r\n\ @version\ 1.0\r\n\ @author\ Klaus\ Reinold\r\n
+comment1.params=
+comment1.target=Fenster()
+comment1.text=\r\n\ Konstruktor\ der\ Oberfl\u00E4che\r\n\ Erzeugt\ ein\ Fenster\ mit\ den\ zugeh\u00F6rigen\ Komponenten\r\n
+comment2.params=evt
+comment2.target=void\ windowClosing(java.awt.event.WindowEvent)
+comment3.params=evt
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=evt
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=5
