@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Warteschlange
+comment0.text=\r\n\ Beschreibung\ der\ Warteschlange\r\n\ \r\n\ @author\ Klaus\ Reinold\r\n\ @version\ 0.9\r\n
+comment1.params=
+comment1.target=Warteschlange()
+comment1.text=\r\n\ Konstruktor\ der\ Warteschlange\r\n
+comment2.params=knotenNeu
+comment2.target=void\ Einf\u00FCgen(Knoten)
+comment2.text=\r\n\ F\u00FCgt\ einen\ neuen\ Patienten\ am\ Ende\ der\ Warteschlange\ ein.\r\n\ @param\ patientNeu\ neuer\ Patient\r\n\ \r\n
+comment3.params=
+comment3.target=Knoten\ Entfernen()
+comment3.text=\r\n\ Entfernt\ den\ ersten\ Patient\ aus\ der\ Warteschlange\ und\ gibt\ ihn\ zur\u00FCck.\r\n\ @return\ bisheriger\ erster\ Patient\ \r\n
+comment4.params=
+comment4.target=void\ InformationAusgeben()
+comment4.text=\r\n\ Gibt\ Information\ \u00FCber\ die\ Warteschlange\ aus.\r\n
+numComments=5
