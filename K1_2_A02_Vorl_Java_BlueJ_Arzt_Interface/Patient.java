@@ -5,7 +5,7 @@
  * @author Klaus Reinold 
  * @version 0.9
  */
-class Patient
+class Patient implements Datenelement
 {
     /** Name des Patienten */
     private String name;
@@ -22,7 +22,7 @@ class Patient
     /**
      * Gibt Information über den Patienten aus.
      */
-    void InformationAusgeben()
+    public void InformationAusgeben()
     {
         System.out.println(name);
     }
@@ -31,7 +31,7 @@ class Patient
      * Gibt den Namen des Patienten aus
      * @return Name des Patienten
      */
-    String NameGeben()
+    public String NameGeben()
     {
         return name;
     }

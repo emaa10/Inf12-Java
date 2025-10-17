@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Hund
+comment0.text=\r\n\ Beschreibung\ der\ Klasse\ Hund\r\n\ \r\n\ @author\ Klaus\ Reinold\ \r\n\ @version\ 0.9\r\n
+comment1.params=s
+comment1.target=Hund(java.lang.String)
+comment2.params=
+comment2.target=void\ InformationAusgeben()
+comment2.text=\r\n\ Gibt\ Information\ \u00FCber\ den\ Hund\ aus.\r\n
+comment3.params=
+comment3.target=java.lang.String\ NameGeben()
+comment3.text=\r\n\ Gibt\ den\ Namen\ des\ Hundes\ aus\r\n\ @return\ Name\ des\ Hundes\r\n
+numComments=4
