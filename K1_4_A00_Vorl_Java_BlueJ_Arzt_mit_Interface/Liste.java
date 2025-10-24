@@ -34,6 +34,19 @@ class Liste
         }
     }
     
+    void VorneEinfügen(Datenelement dNeu) {
+        Knoten kneu = new Knoten(dNeu);
+        Knoten anfang_davor = anfang;
+        anfang = kneu;
+        anfang.NachfolgerSetzen(anfang_davor);
+    }
+    
+    void einfügenVor(Datenelement dNeu, Datenelement vergleichswert) {
+        if(dNeu.DatenelementGeben() != vergleichswert) {
+            
+        }
+    }
+    
     int LaengeGeben(){
         if(anfang ==null) {
             return 0;
@@ -51,6 +64,7 @@ class Liste
             return anfang.DatenelementSuchen(name,1);
         }
     }
+    
     /**
      * Entfernt den ersten Patient aus der Warteschlange und gibt ihn zurück.
      * @return bisheriger erster Patient 
@@ -79,6 +93,7 @@ class Liste
             // return null;
         // }
     }
+
 
     /**
      * Gibt Information über die Warteschlange aus.
