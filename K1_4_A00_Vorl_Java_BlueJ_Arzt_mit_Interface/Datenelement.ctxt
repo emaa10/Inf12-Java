@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Datenelement
+comment0.text=\r\n\ Interface\ f\u00FCr\ Datenelemente\r\n\ \r\n\ @author\ Klaus\ Reinold\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ InformationAusgeben()
+comment1.text=Methode\ zur\ Ausgabe\ von\ Information\ \u00FCber\ das\ Datenelement
+comment2.params=
+comment2.target=java.lang.String\ NameGeben()
+numComments=3

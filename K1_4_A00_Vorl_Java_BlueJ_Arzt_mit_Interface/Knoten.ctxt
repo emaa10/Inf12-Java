@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Knoten
+comment0.text=\r\n\ Beschreibung\ der\ Klasse\ Knoten\r\n\ \r\n\ @author\ Klaus\ Reinold\ \r\n\ @version\ 1.0\r\n
+comment1.params=dneu
+comment1.target=Knoten(Datenelement)
+comment1.text=\r\n\ Konstruktor\ des\ Knoten\r\n\ @param\ dNeu\ Datenelement\r\n
+comment2.params=dneu
+comment2.target=void\ HintenEinf\u00FCgen(Datenelement)
+comment2.text=\r\n\ F\u00FCgt\ ein\ Datenelement\ am\ Ende\ der\ Liste\ ein\r\n\ @param\ dneu\ neues\ Datenelement\r\n
+comment3.params=
+comment3.target=int\ RestelaengeGeben()
+comment4.params=name\ pos
+comment4.target=int\ DatenelementSuchen(java.lang.String,\ int)
+comment5.params=nf
+comment5.target=void\ NachfolgerSetzen(Knoten)
+comment5.text=\r\n\ Nachfolger\ des\ Knoten\ setzen\r\n\ @param\ nf\ neuer\ Nachfolger\r\n
+comment6.params=
+comment6.target=Knoten\ NachfolgerGeben()
+comment6.text=\r\n\ Gibt\ den\ Nachfolger\ des\ Knoten\ aus.\r\n\ @return\ Nachfolger\r\n
+comment7.params=
+comment7.target=Datenelement\ DatenelementGeben()
+comment7.text=\r\n\ Gibt\ das\ Datenelement\ zur\u00FCck\r\n\ @return\ Datenelement\r\n
+comment8.params=
+comment8.target=void\ InformationAusgeben()
+comment8.text=\r\n\ Gibt\ Information\ \u00FCber\ das\ Datenelement\ aus.\r\n
+numComments=9

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Liste
+comment0.text=\r\n\ Beschreibung\ der\ Warteschlange\r\n\ \r\n\ @author\ Klaus\ Reinold\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Liste()
+comment1.text=\r\n\ Konstruktor\ der\ Warteschlange\r\n
+comment2.params=dneu
+comment2.target=void\ HintenEinf\u00FCgen(Datenelement)
+comment2.text=\r\n\ F\u00FCgt\ ein\ neues\ Datenelement\ am\ Ende\ der\ Warteschlange\ ein.\r\n\ @param\ dNeu\ neues\ Datenelement\r\n
+comment3.params=
+comment3.target=int\ LaengeGeben()
+comment4.params=name
+comment4.target=int\ DatenelementSuchen(java.lang.String)
+comment5.params=
+comment5.target=Datenelement\ Entfernen()
+comment5.text=\r\n\ Entfernt\ den\ ersten\ Patient\ aus\ der\ Warteschlange\ und\ gibt\ ihn\ zur\u00FCck.\r\n\ @return\ bisheriger\ erster\ Patient\ \r\n
+comment6.params=
+comment6.target=void\ InformationAusgeben()
+comment6.text=\r\n\ Gibt\ Information\ \u00FCber\ die\ Warteschlange\ aus.\r\n
+numComments=7
