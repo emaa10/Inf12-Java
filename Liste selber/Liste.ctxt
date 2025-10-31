@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Liste
+comment1.params=
+comment1.target=Liste()
+comment2.params=
+comment2.target=int\ laengeGeben()
+comment3.params=dneu
+comment3.target=void\ hintenEinfuegen(Datenelement)
+comment4.params=dneu
+comment4.target=void\ vorneEinfuegen(Datenelement)
+comment5.params=
+comment5.target=void\ vorneEntfernen()
+comment6.params=d
+comment6.target=Datenelement\ DatenelementSuchen(Datenelement)
+comment7.params=dneu\ pos
+comment7.target=void\ zwischenEinfuegen(Datenelement,\ int)
+numComments=8

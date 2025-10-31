@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Hund
+comment1.params=neuname
+comment1.target=Hund(java.lang.String)
+comment2.params=
+comment2.target=void\ informationenAusgeben()
+numComments=3
