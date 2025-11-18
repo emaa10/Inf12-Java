@@ -7,6 +7,7 @@
 public abstract class Listenelement
 {
     abstract int RestlängeGeben(int x);
+    abstract void endeEntfernen();
 }
 
     

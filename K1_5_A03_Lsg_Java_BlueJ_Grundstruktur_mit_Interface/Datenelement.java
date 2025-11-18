@@ -24,4 +24,5 @@ interface Datenelement
      */
     boolean IstKleinerAls(Datenelement dvergleich);
 
+    
 }

@@ -24,6 +24,19 @@ class Knoten extends Listenelement
     }
     
     @Override int RestlängeGeben(int x) {
-        return nachfolger.RestlängeGeben(x) +1;
+        return nachfolger.RestlängeGeben(x) + 1;
+    }
+    
+    Datenelement EndeGeben(Datenelement d) {
+        return nachfolger.EndeGeben(this.daten);
+    }
+    
+    Listenelement knotenEntfernen(Datenelement d) {
+        if(this.daten == d) {
+            return nachfolger;
+        } else {
+            nachfolger = nachfolger.knotenEntfernen(d);
+            return this;
+        }
     }
 }

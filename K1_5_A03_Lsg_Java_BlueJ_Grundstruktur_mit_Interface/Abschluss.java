@@ -9,6 +9,10 @@ public class Abschluss extends Listenelement
     @Override int RestlängeGeben(int x) {
         return 0;
     }
+    
+    Datenelement EndeGeben(Datenelement d) {
+        return d;
+    }
 }
 
     

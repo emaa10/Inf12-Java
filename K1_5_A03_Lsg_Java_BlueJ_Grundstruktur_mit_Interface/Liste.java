@@ -31,4 +31,11 @@ class Liste
         return anfang.RestlängeGeben(1);
     }
 
+    Datenelement endeEntfernen() {
+        Datenelement d = anfang.EndeGeben();
+    }
+    
+    void knotenEntfernen(Datenelement d) {
+        anfang = anfang.knotenEntfernen(d);
+    }
 }

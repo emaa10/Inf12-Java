@@ -1,13 +1,13 @@
 #BlueJ class context
 comment0.target=Datenelement
-comment0.text=\r\n\ Interface\ f\u00FCr\ Datenelemente\r\n\ \r\n\ @author\ Klaus\ Reinold\r\n\ @version\ 1.0\r\n
+comment0.text=\n\ Interface\ f\u00FCr\ Datenelemente\n\ \n\ @author\ Klaus\ Reinold\n\ @version\ 1.0\n
 comment1.params=
 comment1.target=void\ InformationAusgeben()
 comment1.text=Methode\ zur\ Ausgabe\ von\ Information\ \u00FCber\ das\ Datenelement
 comment2.params=gesuchterWert
 comment2.target=boolean\ Schl\u00FCsselIstGleich(java.lang.String)
-comment2.text=\r\n\ Gibt\ zur\u00FCck,\ ob\ der\ Name\ gleich\ den\ \u00FCbergebenen\ Wert\ ist.\r\n\ @param\ gesuchterWert\ gesuchter\ Wert\r\n\ @return\ Wahrheitswert,\ der\ angibt,\ ob\ der\ Name\ der\ gesuchte\ ist.\ \r\n
+comment2.text=\n\ Gibt\ zur\u00FCck,\ ob\ der\ Name\ gleich\ den\ \u00FCbergebenen\ Wert\ ist.\n\ @param\ gesuchterWert\ gesuchter\ Wert\n\ @return\ Wahrheitswert,\ der\ angibt,\ ob\ der\ Name\ der\ gesuchte\ ist.\ \n
 comment3.params=dvergleich
 comment3.target=boolean\ IstKleinerAls(Datenelement)
-comment3.text=\r\n\ Vergleich\ zweier\ Datenelemente\ bez\u00FCglich\ einer\ Ordnungsrelation\r\n\ @param\ dvergleich\ Datenelement\ zum\ Vergleich\r\n
+comment3.text=\n\ Vergleich\ zweier\ Datenelemente\ bez\u00FCglich\ einer\ Ordnungsrelation\n\ @param\ dvergleich\ Datenelement\ zum\ Vergleich\n
 numComments=4
