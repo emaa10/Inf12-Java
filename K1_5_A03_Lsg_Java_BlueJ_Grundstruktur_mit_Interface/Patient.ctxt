@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Patient
+comment0.text=\r\n\ Beschreibung\ der\ Klasse\ Patient\r\n\ \r\n\ @author\ Klaus\ Reinold\ \r\n\ @version\ 1.0\r\n
+comment1.params=s
+comment1.target=Patient(java.lang.String)
+comment1.text=\r\n\ Konstruktor\ des\ Patienten\r\n\ @param\ s\ Name\ des\ Patienten\r\n
+comment2.params=
+comment2.target=void\ InformationAusgeben()
+comment2.text=\r\n\ Gibt\ Information\ \u00FCber\ den\ Patienten\ aus.\r\n
+comment3.params=
+comment3.target=java.lang.String\ NameGeben()
+comment3.text=\r\n\ Gibt\ den\ Namen\ des\ Patienten\ aus\r\n\ @return\ Name\ des\ Patienten\r\n
+comment4.params=gesuchterWert
+comment4.target=boolean\ Schl\u00FCsselIstGleich(java.lang.String)
+comment4.text=\r\n\ Gibt\ zur\u00FCck,\ ob\ der\ Name\ gleich\ den\ \u00FCbergebenen\ Wert\ ist.\r\n\ @param\ gesuchterWert\ gesuchter\ Wert\r\n\ @return\ Wahrheitswert,\ der\ angibt,\ ob\ der\ Name\ der\ gesuchte\ ist.\ \r\n
+comment5.params=dvergleich
+comment5.target=boolean\ IstKleinerAls(Datenelement)
+comment5.text=\r\n\ Vergleich\ zweier\ Datenelemente\ bez\u00FCglich\ einer\ Ordnungsrelation\r\n\ @param\ dvergleich\ Datenelement\ zum\ Vergleich\r\n
+numComments=6

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Liste
+comment0.text=\n\ Beschreibung\ der\ Liste\n\ \n\ @author\ Klaus\ Reinold\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Liste()
+comment1.text=\n\ Konstruktor\ der\ Liste\n
+comment2.params=dNeu
+comment2.target=void\ VorneEinf\u00FCgen(Datenelement)
+comment2.text=\n\ Einf\u00FCgen\ am\ Anfang\ der\ Liste\ (nichtrekursiv\!)\n\ @param\ dNeu\ neues\ Datenelement\n
+comment3.params=
+comment3.target=int\ l\u00E4ngeBestimmen()
+numComments=4

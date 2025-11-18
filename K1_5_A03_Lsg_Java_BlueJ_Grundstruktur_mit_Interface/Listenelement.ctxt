@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Listenelement
+comment0.text=\n\ Abstrakte\ Klasse\ Listenelement\ als\ Oberklasse\ f\u00FCr\ Knoten\ und\ Abschluss\n\ \n\ @author\ Klaus\ Reinold\n\ @version\ 1.0\n
+comment1.params=x
+comment1.target=int\ Restl\u00E4ngeGeben(int)
+numComments=2
