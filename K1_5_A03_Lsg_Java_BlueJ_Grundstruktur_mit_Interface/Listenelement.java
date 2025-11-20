@@ -7,7 +7,11 @@
 public abstract class Listenelement
 {
     abstract int RestlängeGeben(int x);
-    abstract void endeEntfernen();
+    abstract Datenelement EndeGeben(Datenelement d);
+    abstract Listenelement knotenEntfernen(Datenelement d);
+    abstract Datenelement datenGeben();
+    abstract Listenelement nachfolgerGeben();
+    abstract void informationenAusgeben();
 }
 
     

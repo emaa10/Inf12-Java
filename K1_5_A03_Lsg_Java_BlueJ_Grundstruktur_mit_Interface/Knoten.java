@@ -10,7 +10,7 @@ class Knoten extends Listenelement
     private Datenelement daten;
 
     /** Verwaltung des nachfolgenden Knotens in der Liste */
-    private Listenelement nachfolger;
+    public Listenelement nachfolger;
 
     /**
      * Konstruktor des Knotens
@@ -31,6 +31,14 @@ class Knoten extends Listenelement
         return nachfolger.EndeGeben(this.daten);
     }
     
+    Datenelement datenGeben() {
+        return this.daten;
+    }
+    
+    Listenelement nachfolgerGeben() {
+        return this.nachfolger;
+    }
+    
     Listenelement knotenEntfernen(Datenelement d) {
         if(this.daten == d) {
             return nachfolger;
@@ -38,5 +46,10 @@ class Knoten extends Listenelement
             nachfolger = nachfolger.knotenEntfernen(d);
             return this;
         }
+    }
+    
+    void informationenAusgeben() {
+        daten.InformationAusgeben();
+        nachfolger.informationenAusgeben();
     }
 }

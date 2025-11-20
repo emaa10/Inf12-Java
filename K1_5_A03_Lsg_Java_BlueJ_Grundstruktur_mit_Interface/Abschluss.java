@@ -13,6 +13,22 @@ public class Abschluss extends Listenelement
     Datenelement EndeGeben(Datenelement d) {
         return d;
     }
+    
+    Listenelement knotenEntfernen(Datenelement d) {
+        return this;
+    }
+    
+    Datenelement datenGeben() {
+        return null;
+    }
+
+    Listenelement nachfolgerGeben() {
+        return null;
+    }
+    
+    void informationenAusgeben() {
+        System.out.println("---");
+    }
 }
 
     

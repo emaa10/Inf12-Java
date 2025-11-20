@@ -32,10 +32,23 @@ class Liste
     }
 
     Datenelement endeEntfernen() {
-        Datenelement d = anfang.EndeGeben();
+        Datenelement d = anfang.EndeGeben(null);
+        anfang = anfang.knotenEntfernen(d);
+        return d;
+    }
+    
+    Datenelement anfangEntfernen() {
+        Datenelement d = this.anfang.datenGeben();
+        anfang = anfang.nachfolgerGeben();
+        return d;
     }
     
     void knotenEntfernen(Datenelement d) {
         anfang = anfang.knotenEntfernen(d);
+    }
+    
+    void informationenAusgeben() {
+        System.out.println("Informationen Beginn");
+        anfang.informationenAusgeben();
     }
 }
