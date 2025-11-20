@@ -52,4 +52,9 @@ class Knoten extends Listenelement
         daten.InformationAusgeben();
         nachfolger.informationenAusgeben();
     }
+    
+    Listenelement hintenEinfügen(Datenelement d){
+        nachfolger = nachfolger.hintenEinfügen(d);
+        return this;
+    }
 }

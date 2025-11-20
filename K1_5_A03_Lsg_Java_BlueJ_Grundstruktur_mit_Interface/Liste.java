@@ -51,4 +51,8 @@ class Liste
         System.out.println("Informationen Beginn");
         anfang.informationenAusgeben();
     }
+    
+    void hintenEinfügen(Datenelement d) {
+        anfang = anfang.hintenEinfügen(d);
+    }
 }

@@ -12,6 +12,7 @@ public abstract class Listenelement
     abstract Datenelement datenGeben();
     abstract Listenelement nachfolgerGeben();
     abstract void informationenAusgeben();
+    abstract Listenelement hintenEinfügen(Datenelement d);
 }
 
     

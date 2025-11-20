@@ -29,6 +29,11 @@ public class Abschluss extends Listenelement
     void informationenAusgeben() {
         System.out.println("---");
     }
+    
+    Listenelement hintenEinfügen(Datenelement d) {
+        Knoten k = new Knoten(d, this);
+        return k;
+    }
 }
 
     

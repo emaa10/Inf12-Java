@@ -13,4 +13,6 @@ comment5.params=
 comment5.target=Listenelement\ nachfolgerGeben()
 comment6.params=
 comment6.target=void\ informationenAusgeben()
-numComments=7
+comment7.params=d
+comment7.target=Listenelement\ hintenEinf\u00FCgen(Datenelement)
+numComments=8

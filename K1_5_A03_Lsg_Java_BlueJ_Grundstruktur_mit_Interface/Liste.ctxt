@@ -17,4 +17,6 @@ comment6.params=d
 comment6.target=void\ knotenEntfernen(Datenelement)
 comment7.params=
 comment7.target=void\ informationenAusgeben()
-numComments=8
+comment8.params=d
+comment8.target=void\ hintenEinf\u00FCgen(Datenelement)
+numComments=9
