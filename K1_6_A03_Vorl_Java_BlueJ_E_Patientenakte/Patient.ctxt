@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Patient
+comment0.text=\n\ Beschreibung\ der\ Klasse\ Patient\n\ \n\ @author\ Klaus\ Reinold\ \n\ @version\ 1.0\n
+comment1.params=s
+comment1.target=Patient(java.lang.String)
+comment1.text=\n\ Konstruktor\ des\ Patienten\n\ @param\ s\ Name\ des\ Patienten\n
+comment2.params=
+comment2.target=void\ InformationAusgeben()
+comment2.text=\n\ Gibt\ Information\ \u00FCber\ den\ Patienten\ aus.\n
+comment3.params=
+comment3.target=java.lang.String\ NameGeben()
+comment3.text=\n\ Gibt\ den\ Namen\ des\ Patienten\ aus\n\ @return\ Name\ des\ Patienten\n
+comment4.params=gesuchterWert
+comment4.target=boolean\ Schl\u00FCsselIstGleich(java.lang.String)
+comment4.text=\n\ Gibt\ zur\u00FCck,\ ob\ der\ Name\ gleich\ dem\ \u00FCbergebenen\ Wert\ ist.\n\ @param\ gesuchterWert\ gesuchter\ Wert\n\ @return\ Wahrheitswert,\ der\ angibt,\ ob\ der\ Name\ der\ gesuchte\ ist.\ \n
+comment5.params=dvergleich
+comment5.target=boolean\ IstKleinerAls(Datenelement)
+comment5.text=\n\ Vergleich\ zweier\ Datenelemente\ bez\u00FCglich\ einer\ Ordnungsrelation\n\ @param\ dvergleich\ Datenelement\ zum\ Vergleich\n
+comment6.params=Aktennotiz
+comment6.target=void\ AktennotizHinzuf\u00FCgen(java.lang.String)
+comment6.text=\n\ Hier\ fehlt\ eine\ Methode,\ um\ der\ E-Akte\ des\ Patienten\ eine\ Aktennotiz\n\ hinzuzuf\u00FCgen.\n\ @param\ Aktennotiz\n
+numComments=7

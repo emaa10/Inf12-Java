@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=E_Akten_Eintrag
+comment0.text=\n\ Klasse\ f\u00FCr\ einen\ E-Akten-Eintrag\n\ \n\ @author\ Klaus\ Reinold\ \n\ @version\ 1.0\n
+comment1.params=eintragNeu
+comment1.target=E_Akten_Eintrag(java.lang.String)
+comment1.text=\n\ Konstruktor\n\ @param\ eintragNeu\ der\ Eintrag\n
+comment2.params=
+comment2.target=void\ InformationAusgeben()
+comment2.text=\n\ Methode\ zur\ Ausgabe\ von\ Information\ \u00FCber\ das\ Datenelement\n
+comment3.params=gesuchterWert
+comment3.target=boolean\ Schl\u00FCsselIstGleich(java.lang.String)
+comment3.text=\n\ Gibt\ zur\u00FCck,\ ob\ der\ Name\ gleich\ den\ \u00FCbergebenen\ Wert\ ist.\n\ @param\ gesuchterWert\ gesuchter\ Wert\n\ @return\ Wahrheitswert,\ der\ angibt,\ ob\ der\ Eintrag\ der\ gesuchte\ ist.\ \n
+comment4.params=dvergleich
+comment4.target=boolean\ IstKleinerAls(Datenelement)
+comment4.text=\n\ Vergleich\ zweier\ Datenelemente\ bez\u00FCglich\ einer\ Ordnungsrelation\n\ @param\ dvergleich\ Datenelement\ zum\ Vergleich\n
+numComments=5
