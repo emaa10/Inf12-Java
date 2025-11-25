@@ -28,6 +28,7 @@ class Patient implements Datenelement
     public void InformationAusgeben()
     {
         System.out.println(name);
+        akte.akteAusgeben();
     }
 
     /**

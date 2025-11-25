@@ -14,4 +14,8 @@ public class Stapel
     Datenelement pop() {
         return liste.AnfangEntfernen();
     }
+    
+    void akteAusgeben() {
+        liste.InformationAusgeben();
+    }
 }

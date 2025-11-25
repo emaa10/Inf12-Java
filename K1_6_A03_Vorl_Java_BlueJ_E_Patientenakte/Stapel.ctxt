@@ -6,4 +6,6 @@ comment2.params=dNeu
 comment2.target=void\ push(Datenelement)
 comment3.params=
 comment3.target=Datenelement\ pop()
-numComments=4
+comment4.params=
+comment4.target=void\ akteAusgeben()
+numComments=5
