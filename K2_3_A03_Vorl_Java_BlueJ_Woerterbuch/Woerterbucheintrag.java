@@ -8,7 +8,7 @@
  * @author Peter Brichzin
  * @version 23.05.24
  */
-class Woerterbucheintrag implements Datenelement
+class Woerterbucheintrag
 {
     /** Englisches Wort; Schlüssel dieses Datenelements */    
     private String wort; 

@@ -2,4 +2,6 @@
 comment0.target=Binbaum
 comment1.params=
 comment1.target=Binbaum()
-numComments=2
+comment2.params=datenNeu
+comment2.target=void\ Einf\u00FCgen(Woerterbucheintrag)
+numComments=3

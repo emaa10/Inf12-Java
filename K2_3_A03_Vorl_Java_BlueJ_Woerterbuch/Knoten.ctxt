@@ -1,5 +1,7 @@
 #BlueJ class context
 comment0.target=Knoten
 comment1.params=dNeu
-comment1.target=Knoten(Datenelement)
-numComments=2
+comment1.target=Knoten(Woerterbucheintrag)
+comment2.params=datenNeu
+comment2.target=Baumelement\ Einf\u00FCgen(Woerterbucheintrag)
+numComments=3
