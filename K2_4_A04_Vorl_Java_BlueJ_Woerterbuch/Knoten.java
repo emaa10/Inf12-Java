@@ -153,4 +153,22 @@ class Knoten extends Baumelement
             }
         }  
     }
+    
+    @Override void preOrderAusgeben() {
+        this.daten.InformationAusgeben();
+        linkerNachfolger.preOrderAusgeben();
+        rechterNachfolger.preOrderAusgeben();
+    }
+    
+    @Override void inOrderAusgeben() {
+        linkerNachfolger.inOrderAusgeben();
+        this.daten.InformationAusgeben();
+        rechterNachfolger.inOrderAusgeben();
+    }
+    
+    @Override void postOrderAusgeben() {
+        linkerNachfolger.postOrderAusgeben();
+        rechterNachfolger.postOrderAusgeben();
+        this.daten.InformationAusgeben();
+    }
 }

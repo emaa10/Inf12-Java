@@ -1,22 +1,28 @@
 #BlueJ class context
 comment0.target=Baumelement
-comment0.text=\r\n\ Abstrakte\ Klasse\ Baumelement\ zur\ Realisierung\ einer\ Baumstruktur\ mit\ Hilfe\ des\ Entwurfsmusters\r\n\ Kompositum\:\ Die\ Klasse\ legt\ ausschlie\u00DFlich\ die\ Schnittstelle\ f\u00FCr\ die\ Klassen\r\n\ Knoten\ und\ Abschluss\ in\ Form\ von\ Methoden\ fest.\r\n\ \r\n\ @author\ Peter\ Brichzin\r\n\ @version\ 23.5.24\r\n
+comment0.text=\n\ Abstrakte\ Klasse\ Baumelement\ zur\ Realisierung\ einer\ Baumstruktur\ mit\ Hilfe\ des\ Entwurfsmusters\n\ Kompositum\:\ Die\ Klasse\ legt\ ausschlie\u00DFlich\ die\ Schnittstelle\ f\u00FCr\ die\ Klassen\n\ Knoten\ und\ Abschluss\ in\ Form\ von\ Methoden\ fest.\n\ \n\ @author\ Peter\ Brichzin\n\ @version\ 23.5.24\n
 comment1.params=
 comment1.target=Baumelement()
-comment1.text=\r\n\ Der\ Konstruktor\ ist\ nur\ der\ Vollst\u00E4ndigkeit\ halber\ angegeben.\r\n
+comment1.text=\n\ Der\ Konstruktor\ ist\ nur\ der\ Vollst\u00E4ndigkeit\ halber\ angegeben.\n
 comment2.params=datenNeu
 comment2.target=Baumelement\ Einf\u00FCgen(Woerterbucheintrag)
-comment2.text=\r\n\ F\u00FCgt\ ein\ Datenelement,\ falls\ sein\ Schl\u00FCssel\ noch\ nicht\ vorhanden\ ist,\ \ \r\n\ in\ die\ bestehende\ Datenstruktur\ ein.\ D.h.\ die\ Eigenschaft\ geordneter\ Bin\u00E4rbaum\ \r\n\ bleibt\ erhalten.\r\n\ @param\ datenNeu\ das\ Datenelement\ des\ einzuf\u00FCgenden\ Knoten\r\n\ @return\ (neues)\ Nachfolgeelement\ des\ Aufrufers\r\n
+comment2.text=\n\ F\u00FCgt\ ein\ Datenelement,\ falls\ sein\ Schl\u00FCssel\ noch\ nicht\ vorhanden\ ist,\ \ \n\ in\ die\ bestehende\ Datenstruktur\ ein.\ D.h.\ die\ Eigenschaft\ geordneter\ Bin\u00E4rbaum\ \n\ bleibt\ erhalten.\n\ @param\ datenNeu\ das\ Datenelement\ des\ einzuf\u00FCgenden\ Knoten\n\ @return\ (neues)\ Nachfolgeelement\ des\ Aufrufers\n
 comment3.params=suchSchl\u00FCssel
 comment3.target=Woerterbucheintrag\ Suchen(java.lang.String)
-comment3.text=\r\n\ Sucht\ ein\ Datenelement,\ das\ \u00FCber\ seinen\ Schl\u00FCssel\ identifiziert\ wird\r\n\ und\ gibt\ dieses\ aus.\r\n\ @param\ suchSchl\u00FCssel\ Schl\u00FCssel\ nach\ dem\ gesucht\ wird\ als\ Zeichenkette\ \r\n\ @return\ gesuchtes\ Datenelement\ bzw.\ null,\ falls\ die\ Suche\ erfolglos\ ist\r\n
+comment3.text=\n\ Sucht\ ein\ Datenelement,\ das\ \u00FCber\ seinen\ Schl\u00FCssel\ identifiziert\ wird\n\ und\ gibt\ dieses\ aus.\n\ @param\ suchSchl\u00FCssel\ Schl\u00FCssel\ nach\ dem\ gesucht\ wird\ als\ Zeichenkette\ \n\ @return\ gesuchtes\ Datenelement\ bzw.\ null,\ falls\ die\ Suche\ erfolglos\ ist\n
 comment4.params=suchSchl\u00FCssel
 comment4.target=boolean\ IstVorhanden(java.lang.String)
-comment4.text=\r\n\ \u00DCberpr\u00FCft,\ ob\ ein\ Datenelement\ mit\ dem\ eingegebenen\ Schl\u00FCssel\ (in\ Form\ einer\r\n\ Zeichenkette)\ vorhanden\ ist.\ \r\n\ @param\ suchSchl\u00FCssel\ Schl\u00FCssel,\ nach\ dem\ gesucht\ wird\ als\ Zeichenkette\ \r\n\ @return\ true\ im\ Erfolgsfall,\ false\ sonst.\r\n
+comment4.text=\n\ \u00DCberpr\u00FCft,\ ob\ ein\ Datenelement\ mit\ dem\ eingegebenen\ Schl\u00FCssel\ (in\ Form\ einer\n\ Zeichenkette)\ vorhanden\ ist.\ \n\ @param\ suchSchl\u00FCssel\ Schl\u00FCssel,\ nach\ dem\ gesucht\ wird\ als\ Zeichenkette\ \n\ @return\ true\ im\ Erfolgsfall,\ false\ sonst.\n
 comment5.params=aktTiefe
 comment5.target=int\ H\u00F6heGeben(int)
-comment5.text=\r\n\ Berechnet\ die\ H\u00F6he\ des\ Baums\ und\ gibt\ diesen\ Wert\ zur\u00FCck\r\n\ @param\ aktTiefe\ Tiefe\ des\ aktuellen\ Knotens\r\n\ @return\ die\ H\u00F6he\ \=\ maximale\ Tiefe\ (der\ bisher\ besuchten\ Knoten)\r\n
+comment5.text=\n\ Berechnet\ die\ H\u00F6he\ des\ Baums\ und\ gibt\ diesen\ Wert\ zur\u00FCck\n\ @param\ aktTiefe\ Tiefe\ des\ aktuellen\ Knotens\n\ @return\ die\ H\u00F6he\ \=\ maximale\ Tiefe\ (der\ bisher\ besuchten\ Knoten)\n
 comment6.params=suchSchl\u00FCssel\ tiefe
 comment6.target=int\ TiefeGeben(java.lang.String,\ int)
-comment6.text=\r\n\ Gibt\ die\ Tiefe\ des\ Knotens\ an,\ in\ dem\ ein\ Datenelement\ mit\ dem\ Schl\u00FCssel\ suchSchluessel\ gespeichert\ ist.\r\n\ @param\ suchSchluessel\ Schl\u00FCssel,\ nach\ dem\ gesucht\ wird\ als\ Zeichenkette\r\n\ @param\ tiefe\ dei\ Teife\ des\ aktuellen\ Knotens\r\n\ @return\ Tiefe\ als\ positive\ Zahl,\ bzw.\ -1\ falls\ der\ suchSchluessel\ nicht\ vorhanden\ ist.\r\n
-numComments=7
+comment6.text=\n\ Gibt\ die\ Tiefe\ des\ Knotens\ an,\ in\ dem\ ein\ Datenelement\ mit\ dem\ Schl\u00FCssel\ suchSchluessel\ gespeichert\ ist.\n\ @param\ suchSchluessel\ Schl\u00FCssel,\ nach\ dem\ gesucht\ wird\ als\ Zeichenkette\n\ @param\ tiefe\ dei\ Teife\ des\ aktuellen\ Knotens\n\ @return\ Tiefe\ als\ positive\ Zahl,\ bzw.\ -1\ falls\ der\ suchSchluessel\ nicht\ vorhanden\ ist.\n
+comment7.params=
+comment7.target=void\ inOrderAusgeben()
+comment8.params=
+comment8.target=void\ preOrderAusgeben()
+comment9.params=
+comment9.target=void\ postOrderAusgeben()
+numComments=10

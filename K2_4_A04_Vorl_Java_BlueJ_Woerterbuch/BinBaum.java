@@ -74,4 +74,16 @@ class BinBaum
     {
         return wurzel.TiefeGeben(suchSchlüssel, 0);
     }
+    
+    void preOrderAusgeben() {
+        wurzel.preOrderAusgeben();
+    }
+    
+    void inOrderAusgeben() {
+        wurzel.inOrderAusgeben();
+    }
+    
+    void postOrderAusgeben() {
+        wurzel.postOrderAusgeben();
+    }
 }

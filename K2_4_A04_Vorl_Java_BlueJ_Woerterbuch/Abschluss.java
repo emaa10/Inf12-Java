@@ -69,4 +69,16 @@ class Abschluss extends Baumelement
     {
         return -1;
     }
+    
+    @Override void preOrderAusgeben() {
+        // nix
+    }
+    
+    @Override void inOrderAusgeben() {
+        // nix
+    }
+    
+    @Override void postOrderAusgeben() {
+        // nix
+    }
 }

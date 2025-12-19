@@ -55,4 +55,8 @@ abstract class Baumelement
      * @return Tiefe als positive Zahl, bzw. -1 falls der suchSchluessel nicht vorhanden ist.
      */
     abstract int TiefeGeben(String suchSchlüssel, int tiefe);
+    
+    abstract void inOrderAusgeben();
+    abstract void preOrderAusgeben();
+    abstract void postOrderAusgeben();
 }
