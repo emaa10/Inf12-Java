@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=RekursiveGrafik
+comment0.text=\r\n\ Rahmenklasse\ zum\ Zeichen\ von\ Mustern\ aus\ Quadraten\r\n\ \r\n\ @author\ Albert\ Wiedemann\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=RekursiveGrafik()
+comment1.text=\r\n\ Der\ Konstruktor\ legt\ die\ Turtle\ an.\r\n
+comment2.params=l\u00E4nge
+comment2.target=void\ QuadratZeichnen(double)
+comment2.text=\r\n\ Zeichnet\ ein\ Quadrat\ mit\ gegebener\ Seitenl\u00E4nge\ an\ der\ Stelle\ der\ Turtle\r\n\ @param\ l\u00E4nge\ Seitenl\u00E4nge\ des\ Quadrats\r\n
+comment3.params=anzahl
+comment3.target=void\ PerlenketteZeichnen(int)
+comment3.text=\r\n\ Zeichnet\ ein\ Element\ der\ Perlenkette\r\n\ @param\ anzahl\ (Rest-)anzahl\ der\ Quadrate\r\n
+numComments=4
