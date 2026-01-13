@@ -35,8 +35,40 @@ class RekursiveGrafik
      * Zeichnet ein Element der Perlenkette
      * @param anzahl (Rest-)anzahl der Quadrate
      */
-    void PerlenketteZeichnen (int anzahl)
-    {
-        //Hier Rumpf implementieren
+    void Quadratezeichnen(int anzahl) {
+        if(anzahl == 1) {
+            QuadratZeichnen(anzahl*10);
+        } else{
+            Quadratezeichnen(anzahl-1);
+            QuadratZeichnen(anzahl*10);
+        }
+    }
+    
+    void PerlenketteZeichnen(int anzahl) {
+        if(anzahl == 1) {
+            QuadratZeichnen(20);
+        } else {
+            PerlenketteZeichnen(anzahl-1);
+            QuadratZeichnen(20);
+            turtle.Gehen(40);
+        }
+    }
+    
+    void QuadratMusterZeichnen(int gesamtAnzahl, int restAnzahl) {
+        if(restAnzahl == 1) {
+            turtle.StiftHeben();
+            turtle.Gehen(40);
+            turtle.StiftSenken();
+            QuadratZeichnen(40);
+        } else {
+            QuadratMusterZeichnen(gesamtAnzahl, restAnzahl-1);
+            turtle.StiftHeben();
+            turtle.Gehen(40);
+            turtle.StiftSenken();
+            QuadratZeichnen(40);
+            turtle.StiftHeben();
+            turtle.Gehen(-40);
+            turtle.Drehen(360/gesamtAnzahl);
+        }
     }
 }
