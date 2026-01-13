@@ -158,4 +158,5 @@ class Woerterbucheintrag
     {
         bedeutung = bedeutungNeu;
     }
+
 }
