@@ -55,13 +55,12 @@ class RekursiveGrafik
     }
     
     void QuadratMusterZeichnen(int gesamtAnzahl, int restAnzahl) {
-        if(restAnzahl == 1) {
+        if(restAnzahl == 0) {
             // turtle.StiftHeben();
             // turtle.Gehen(40);
             // turtle.StiftSenken();
             // QuadratZeichnen(40);
         } else {
-            QuadratMusterZeichnen(gesamtAnzahl, restAnzahl-1);
             turtle.StiftHeben();
             turtle.Gehen(40);
             turtle.StiftSenken();
@@ -69,6 +68,20 @@ class RekursiveGrafik
             turtle.StiftHeben();
             turtle.Gehen(-40);
             turtle.Drehen(360/gesamtAnzahl);
+            QuadratMusterZeichnen(gesamtAnzahl, restAnzahl-1);
+        }
+    }
+    
+    void checkPalindrome(String wort) {
+        if(wort.length() <= 1) {
+            System.out.println("Ist ein Palindrom");
+        } else {
+            int length = wort.length();
+            if(wort.charAt(0) == (wort.charAt(length-1))) {
+                checkPalindrome(wort.substring(1, length-1));
+            } else {
+                System.out.println("Ist kein Palindrom: " + wort);
+            }
         }
     }
 }
