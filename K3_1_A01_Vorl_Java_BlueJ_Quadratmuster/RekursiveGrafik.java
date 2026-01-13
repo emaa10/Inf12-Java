@@ -56,10 +56,10 @@ class RekursiveGrafik
     
     void QuadratMusterZeichnen(int gesamtAnzahl, int restAnzahl) {
         if(restAnzahl == 1) {
-            turtle.StiftHeben();
-            turtle.Gehen(40);
-            turtle.StiftSenken();
-            QuadratZeichnen(40);
+            // turtle.StiftHeben();
+            // turtle.Gehen(40);
+            // turtle.StiftSenken();
+            // QuadratZeichnen(40);
         } else {
             QuadratMusterZeichnen(gesamtAnzahl, restAnzahl-1);
             turtle.StiftHeben();
