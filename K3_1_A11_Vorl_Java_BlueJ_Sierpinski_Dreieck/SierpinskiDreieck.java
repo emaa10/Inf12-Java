@@ -31,11 +31,12 @@ class SierpinskiDreieck
      */
     void SchrittAusführen(int x, int y, int breite, int höhe, int tiefe)
     {
+        // Start:         SchrittAusführen(400, 10, 600, 520, tiefe);
         if (tiefe > 0)
         {
             SchrittAusführen(x, y, breite / 2, höhe / 2, tiefe - 1); // oben
-            SchrittAusführen(x, y, breite / 2, höhe / 2, tiefe - 1); // links unten
-            SchrittAusführen(x, y, breite / 2, höhe / 2, tiefe - 1); // rechts
+            SchrittAusführen(x + (breite/4), y + (höhe/2), breite / 2, höhe / 2, tiefe - 1); // links unten
+            SchrittAusführen(x - (breite/4), y + (höhe/2), breite / 2, höhe / 2, tiefe - 1); // rechts
         }
         else
         {
