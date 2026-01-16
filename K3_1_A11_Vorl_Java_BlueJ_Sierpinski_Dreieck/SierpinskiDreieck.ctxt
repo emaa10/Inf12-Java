@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SierpinskiDreieck
+comment0.text=\n\ Erzeugt\ das\ Sierpinski-Dreieck.\n\ \n\ @author\ Albert\ Wiedemann\n\ @version\ 1.0\n
+comment1.params=tiefe
+comment1.target=SierpinskiDreieck(int)
+comment1.text=\n\ Legt\ das\ Grunddreieck\ an\ und\ st\u00F6\u00DFt\ die\ Rekursion\ an\n\ @@param\ tiefe\ Rekursionstiefe\n
+comment2.params=x\ y\ breite\ h\u00F6he\ tiefe
+comment2.target=void\ SchrittAusf\u00FChren(int,\ int,\ int,\ int,\ int)
+comment2.text=\n\ Ermittelt\ den\ Rekursionsschritt\n\ @x\ x-Position\ der\ Dreiecksspitze\n\ @y\ y-Position\ der\ Dreiecksspitze\n\ @breite\ die\ Breite\ des\ Umgebungsdreiecks\n\ @h\u00F6he\ die\ H\u00F6he\ des\ Umgebungsdreiecks\n\ @tiefe\ restliche\ Rekursionstiefe\n
+numComments=3
