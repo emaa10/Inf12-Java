@@ -57,4 +57,24 @@ class SierpinskiDreieck
             basis.GrößeSetzen(breite, höhe);
         }
     }
+    
+    boolean istGerade(int n) {
+        return gerade(n);
+    }
+    
+    boolean gerade(int n) {
+        if (n == 0) {
+            return true;
+        } else {
+            return ungerade(n-1);
+        }
+    }
+    
+    boolean ungerade(int n) {
+        if (n == 0) {
+            return false;
+        } else {
+            return gerade(n-1);
+        }
+    }
 }
