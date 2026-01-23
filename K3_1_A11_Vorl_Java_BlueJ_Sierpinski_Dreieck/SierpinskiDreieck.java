@@ -44,10 +44,10 @@ class SierpinskiDreieck
         if (tiefe > 0)
         {
             SchrittAusführen(x, y, breite / 2, höhe / 2, tiefe - 1); // oben
-            wait(500);
-            SchrittAusführen(x + (breite/4), y + (höhe/2), breite / 2, höhe / 2, tiefe - 1); // links unten
-            wait(500);
-            SchrittAusführen(x - (breite/4), y + (höhe/2), breite / 2, höhe / 2, tiefe - 1); // rechts
+            //wait(500);
+            SchrittAusführen(x + (breite/4), y + (höhe/2), breite / 2, höhe / 2, tiefe - 1); // rechts
+            //wait(500);
+            SchrittAusführen(x - (breite/4), y + (höhe/2), breite / 2, höhe / 2, tiefe - 1); // links
         }
         else
         {
