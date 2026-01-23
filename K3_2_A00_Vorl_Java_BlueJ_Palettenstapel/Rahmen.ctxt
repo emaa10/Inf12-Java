@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Rahmen
+comment0.text=\r\n\ Rahmenklasse\ des\ Programms\r\n\ \r\n\ @author\ Albert\ Wiedemann\ \r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Rahmen()
+comment1.text=\r\n\ Der\ Konstruktor\ legt\ das\ eigentliche\ Arbeitsobjekt\ an\ und\ startet\ die\ L\u00F6sung.\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\r\n\ Standard-Startmethode\r\n
+numComments=3

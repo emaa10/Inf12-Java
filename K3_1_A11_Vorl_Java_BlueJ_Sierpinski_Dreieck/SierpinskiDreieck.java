@@ -58,6 +58,8 @@ class SierpinskiDreieck
         }
     }
     
+    
+    // verschränkte rekursion
     boolean istGerade(int n) {
         return gerade(n);
     }
@@ -76,5 +78,9 @@ class SierpinskiDreieck
         } else {
             return gerade(n-1);
         }
+    }
+    
+    boolean istGerade2(int n) {
+        return n%2 == 0;
     }
 }

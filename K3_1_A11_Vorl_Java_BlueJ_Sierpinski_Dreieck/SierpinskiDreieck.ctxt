@@ -15,4 +15,6 @@ comment5.params=n
 comment5.target=boolean\ gerade(int)
 comment6.params=n
 comment6.target=boolean\ ungerade(int)
-numComments=7
+comment7.params=n
+comment7.target=boolean\ istGerade2(int)
+numComments=8

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PfeilSymbol
+comment0.text=\r\n\ Stellt\ einen\ Pfeil\ f\u00FCr\ den\ Vorratsstapel\ dar.\r\n\ \r\n\ @author\ Albert\ Wiedemann\r\n\ @version\ 1.0\r\n
+comment1.params=h\u00F6he\ tiefe
+comment1.target=PfeilSymbol(int,\ int)
+comment1.text=\r\n\ Legt\ das\ Pfeilsymbol\ an.\r\n\ @param\ h\u00F6he\ Anzeigeh\u00F6he\ (Pfeilspitze)\r\n\ @param\ tiefe\ die\ anzuzeigende\ Rekursionstiefe\r\n
+comment2.params=
+comment2.target=void\ Entfernen()
+comment2.text=\r\n\ Entfernt\ das\ Pfeilsymbol\ aus\ der\ Anzeige\r\n
+comment3.params=h\u00F6he
+comment3.target=void\ H\u00F6heSetzen(int)
+comment3.text=\r\n\ Setzt\ das\ Symbol\ auf\ eine\ neue\ H\u00F6he\r\n\ @param\ h\u00F6he\ die\ neue\ H\u00F6he\r\n
+numComments=4

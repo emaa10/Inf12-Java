@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Palette
+comment0.text=\n\ Beschreibt\ die\ Daten\ einer\ Palette\n\ \n\ @author\ Albert\ Wiedemann\n\ @version\ 1.0\n
+comment1.params=h\ g
+comment1.target=Palette(int,\ int)
+comment1.text=\n\ Der\ Konstruktor\ legt\ die\ Daten\ fest\n\ @param\ h\ H\u00F6he\ der\ Palette\n\ @param\ g\ Gewicht\ der\ Palette\n
+comment2.params=
+comment2.target=int\ H\u00F6heGeben()
+comment2.text=\n\ Gibt\ die\ H\u00F6he\ der\ Palette\ zur\u00FCck\n\ @return\ H\u00F6he\n
+comment3.params=
+comment3.target=int\ GewichtGeben()
+comment3.text=\n\ Gibt\ das\ Gewicht\ der\ Palette\ zur\u00FCck\n\ @return\ Gewicht\n
+numComments=4

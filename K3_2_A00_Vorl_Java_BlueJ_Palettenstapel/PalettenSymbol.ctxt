@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PalettenSymbol
+comment0.text=\r\n\ Stellt\ eine\ Palette\ auf\ der\ Zeichenfl\u00E4che\ dar.\r\n\ \r\n\ @author\ Albert\ Wiedemann\ \r\n\ @version\ 1.0\r\n
+comment1.params=x\ y\ h\u00F6he\ gewicht\ farbe
+comment1.target=PalettenSymbol(int,\ int,\ int,\ int,\ java.lang.String)
+comment1.text=\r\n\ Legt\ die\ Elemente\ des\ Symbols\ an\r\n\ @param\ x\ x-Koordinate\r\n\ @param\ y\ y-Koordinate\r\n\ @param\ h\u00F6he\ H\u00F6he\ der\ Palette\r\n\ @param\ gewicht\ Gewicht\ f\u00FCr\ die\ Beschriftung\r\n\ @param\ farbe\ Farbe\r\n
+comment2.params=
+comment2.target=PalettenSymbol\ KopieErstellen()
+comment2.text=\r\n\ Erzeugt\ ein\ neues\ Symbol\ mit\ gleichen\ Daten\r\n\ @return\ Kopie\r\n
+comment3.params=x\ y
+comment3.target=void\ PositionSetzen(int,\ int)
+comment3.text=\r\n\ Setzt\ die\ Position\ (der\ linken\ oberen\ Ecke)\ des\ Symbols.\r\n\ @param\ x\ x-Position\ der\ linken\ oberen\ Ecke\r\n\ @param\ y\ y-Position\ der\ linken\ oberen\ Ecke\r\n
+comment4.params=x
+comment4.target=void\ XPositionSetzen(int)
+comment4.text=\r\n\ Setzt\ die\ Position\ (der\ linken\ oberen\ Ecke)\ des\ Symbols.\r\n\ @param\ x\ x-Position\ der\ linken\ oberen\ Ecke\r\n
+comment5.params=
+comment5.target=int\ H\u00F6heGeben()
+comment5.text=\r\n\ Gibt\ die\ H\u00F6he\ des\ Symbols\ zur\u00FCck.\r\n\ @return\ H\u00F6he\r\n
+comment6.params=
+comment6.target=void\ Entfernen()
+comment6.text=\r\n\ Entfernt\ das\ Symbol\ aus\ der\ Anzeige\r\n
+numComments=7

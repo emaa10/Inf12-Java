@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=StapelAufgabe
+comment0.text=\r\n\ Rekursive\ L\u00F6sung\ eines\ Rucksackproblems\r\n\ \r\n\ @author\ Albert\ Wiedemann\ \r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=StapelAufgabe()
+comment1.text=\r\n\ Der\ Konstruktor\ erstellt\ die\ Paletten\ und\ besetzt\ die\ Attribute\ vor\r\n
+comment2.params=
+comment2.target=void\ MaximumsucheStarten()
+comment2.text=\r\n\ Sucht\ die\ Palettenkonfiguration\ mit\ der\ maximalen\ H\u00F6he\ \r\n
+comment3.params=aktIndex\ aktH\u00F6he\ aktGewicht\ l\u00F6sungsansatz\ tiefe
+comment3.target=void\ Schritt(int,\ int,\ int,\ java.util.ArrayList,\ int)
+comment3.text=\r\n\ F\u00FChrt\ den\ n\u00E4chsten\ Schritt\ der\ Suche\ aus\r\n\ @param\ aktIndex\ der\ Index,\ ab\ dem\ die\ Paletten\ ausprobiert\ werden\ sollen\r\n\ @param\ aktH\u00F6he\ die\ aktuelle\ H\u00F6he\ des\ Stapels\r\n\ @param\ aktGewicht\ das\ aktuelle\ Gewicht\ des\ Stapels\r\n\ @param\ l\u00F6sungsansatz\ Feld\ mit\ den\ bisher\ auf\ dem\ Stapel\ befindlichen\ Paletten\r\n\ @param\ tiefe\ die\ Rekursionstiefe\r\n
+numComments=4
