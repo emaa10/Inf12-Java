@@ -87,6 +87,15 @@ class Rucksack
      */
     private void SchrittAusführen (int startIndex, int aktuellesGewicht, int aktuellerNährwert)
     {
-        //Rumpf gemäß Aufgabenstellung ergänzen
+        for (int i = startIndex; i < gewichte.size(); i++) {
+            int gewicht = aktuellesGewicht + gewichte.get(i);
+            if(gewicht <= 30) {
+                int nährwert = aktuellerNährwert + nährwerte.get(i);
+                if(nährwert > optimalerNährwert) {
+                    OptimumSichern(nährwert);
+                }
+                SchrittAusführen(i+1, gewicht, nährwert);
+            }
+        }
     }
 }
