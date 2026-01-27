@@ -4,7 +4,7 @@ import java.util.*;
  * Löst ein Sudoku-Rätsel
  * bim bim bim bim bim bum 
  * sudoku macht bum
- * @author ALLLLLLBERERRRRRTTTTTT Niegeman
+ * @author Albert Wiedemann
  * @version 1.0
  */
 class Sudoku
