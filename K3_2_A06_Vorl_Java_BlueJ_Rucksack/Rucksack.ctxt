@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Rucksack
+comment0.text=\n\ L\u00F6sung\ f\u00FCr\ das\ klassische\ Rucksackproblem\n\ \n\ @author\ Albert\ Wiedemann\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Rucksack()
+comment1.text=\n\ Legt\ die\ Vorratsdaten\ und\ die\ Attribute\ an.\n
+comment2.params=n\u00E4hrwert
+comment2.target=void\ OptimumSichern(int)
+comment2.text=\n\ Speichert\ den\ aktuellen\ Vorrat\ als\ optimalen\ Vorrat.\n\ @param\ n\u00E4hrwert\:\ der\ Gesamtn\u00E4hrwert\ des\ gespeicherten\ Vorrats.\n
+comment3.params=
+comment3.target=void\ OptimalenVorratAusgeben()
+comment3.text=\n\ Gibt\ den\ optimalen\ Vorrakt\ auf\ die\ Konsole\ aus.\n
+comment4.params=startIndex\ aktuellesGewicht\ aktuellerN\u00E4hrwert
+comment4.target=void\ SchrittAusf\u00FChren(int,\ int,\ int)
+comment4.text=\n\ F\u00FCgt\ den\ n\u00E4chsten\ Vorrat\ zu\ den\ bisherigen\ Vorr\u00E4ten\ hinzu\n\ @param\ startIndex\ der\ Index,\ ab\ dem\ die\ Vorr\u00E4te\ erg\u00E4nzt\ werden\ k\u00F6nnen.\n\ @param\ aktuellesGewicht\ das\ Gewicht\ des\ bisherigen\ Vorratsstapels\n\ @param\ aktuellerN\u00E4hrwert\ der\ N\u00E4hrwert\ des\ bisherigen\ Vorratsstapels\n
+numComments=5
