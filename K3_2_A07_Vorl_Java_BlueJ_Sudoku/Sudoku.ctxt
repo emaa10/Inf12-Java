@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Sudoku
+comment0.text=\n\ L\u00F6st\ ein\ Sudoku-R\u00E4tsel\n\ bim\ bim\ bim\ bim\ bim\ bum\ \n\ sudoku\ macht\ bum\n\ @author\ ALLLLLLBERERRRRRTTTTTT\ Niegeman\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Sudoku()
+comment1.text=\n\ Legt\ das\ Sudoku-Feld\ an\ und\ besetzt\ alle\ Elemente\ mit\ "alle\ Werte\ m\u00F6glich"\ vor.\n
+comment2.params=
+comment2.target=void\ Vorbesetzen()
+comment2.text=\n\ Legt\ das\ in\ der\ Aufgabe\ dargestellte\ R\u00E4tsel\ an.\n
+comment3.params=original
+comment3.target=java.util.ArrayList\ Kopieren(java.util.ArrayList)
+comment3.text=\n\ Erstellt\ eine\ Kopie\ des\ gegebenen\ Feldes\n\ @param\ original\ das\ zu\ kopierende\ Feld\n\ @return\ die\ erstellte\ Kopie\n
+comment4.params=
+comment4.target=void\ FeldAusgeben()
+comment4.text=\n\ Gibt\ das\ Sudoku-Feld\ auf\ der\ Konsole\ aus\n\ Angegeben\ werden\ die\ eindeutigen\ Felder,\ sonst\ "-"\n
+comment5.params=zeile\ spalte\ wert
+comment5.target=void\ FeldelementFixieren(int,\ int,\ int)
+comment5.text=\n\ Legt\ das\ Feldelement\ auf\ den\ angegebenen\ Wert\ fest.\n\ @param\ zeile\ Zeilennummer\ des\ zu\ fixierenden\ Elements\n\ @param\ spalte\ Spaltennummer\ des\ zu\ fixierenden\ Elements\n\ @param\ wert\ der\ Wert\ des\ Elements\n
+comment6.params=aktuelleZeile\ aktuelleSpalte
+comment6.target=void\ SchrittAusf\u00FChren(int,\ int)
+comment6.text=\n\ Testet\ alle\ M\u00F6glichkeiten\ an\ der\ aktuellen\ Stelle\n\ @param\ aktuelleZeile\ Nummer\ der\ Zeile\ des\ aktuellen\ Elements\n\ @param\ aktuelleSpalte\ Nummer\ der\ Spalte\ des\ aktuellen\ Elements\n
+numComments=7
