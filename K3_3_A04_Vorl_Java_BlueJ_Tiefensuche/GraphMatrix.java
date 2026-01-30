@@ -178,7 +178,12 @@ class GraphMatrix
      */
     void KnotenBesuchen(int aktuell)
     {
-        // Gemäß Teilaufgabe a ergänzen
+        besuchteKnoten.add(aktuell);
+        for (int i = 0; i<knoten.size(); i++)  {
+            if((matrix.get(aktuell).get(i) > 0) && (!besuchteKnoten.contains(i))) {
+                KnotenBesuchen(i);
+            }
+        }
     }
    
     /**
