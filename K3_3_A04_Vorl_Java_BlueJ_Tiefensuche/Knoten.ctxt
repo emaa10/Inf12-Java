@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Knoten
+comment0.text=\n\ Beschreibt\ einen\ Knoten\n\ \n\ @author\ Albert\ Wiedemann\n\ @version\ 1.0\n
+comment1.params=bezeichner\ x\ y
+comment1.target=Knoten(java.lang.String,\ int,\ int)
+comment1.text=\n\ Besetzt\ die\ Attribute\ und\ legt\ das\ Knotensymbol\ an.\n\ @param\ bezeichner\ Bezeichner\n\ @param\ x\ x-Koordinate\n\ @param\ y\ y-Koordinate\n
+comment2.params=
+comment2.target=java.lang.String\ BezeichnerGeben()
+comment2.text=\n\ Meldet\ den\ Bezeichner\ des\ Knotens\ zur\u00FCck.\n\ @return\ Bezeichner\n
+comment3.params=
+comment3.target=KnotenSymbol\ SymbolGeben()
+comment3.text=\n\ Meldet\ das\ Symbol\ des\ Knotens\ zur\u00FCck.\n\ @return\ Bezeichner\n
+comment4.params=f
+comment4.target=void\ FarbeSetzen(java.lang.String)
+comment4.text=\n\ Setzt\ die\ Farbe\ der\ Darstellung\n\ @param\ f\ die\ (neue)\ Farbe\n
+numComments=5

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Beispiele
+comment0.text=\n\ Beispiele\ f\u00FCr\ diverse\ Graphen\n\ \n\ @author\ Albert\ Wiedemann\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Beispiele()
+comment1.text=\n\ Legt\ das\ Graphenobjekt\ an.\n
+comment2.params=
+comment2.target=void\ Ausf\u00FChrenAbiturfahrt()
+comment2.text=\n\ Legt\ einen\ Graphen\ f\u00FCr\ eine\ Abiturfahrt\ an.\n\ Am\ Ende\ Ausgabe\ der\ Adjazenzmatrix\ zur\ Kontrolle\n
+comment3.params=
+comment3.target=void\ Ausf\u00FChrenAutobahn()
+comment3.text=\n\ Legt\ einen\ Graphen\ f\u00FCr\ den\ s\u00FCddeutschen\ Teil\ des\ Autobahnnetzes\ an.\n\ Am\ Ende\ Ausgabe\ der\ Adjazenzmatrix\ zur\ Kontrolle\n
+comment4.params=
+comment4.target=void\ Ausf\u00FChrenICE()
+comment4.text=\n\ Legt\ einen\ Graphen\ f\u00FCr\ das\ deutsche\ ICE-Netz\ an.\n\ Am\ Ende\ Ausgabe\ der\ Adjazenzmatrix\ zur\ Kontrolle\n
+comment5.params=
+comment5.target=void\ Ausf\u00FChrenBeispielgraph()
+comment5.text=\n\ Legt\ einen\ zusammenh\u00E4ngenden\ Graphen\ an.\n\ Am\ Ende\ Ausgabe\ der\ Adjazenzmatrix\ zur\ Kontrolle\n
+comment6.params=
+comment6.target=void\ Ausf\u00FChrenBeispielgraph2()
+comment6.text=\n\ Legt\ einen\ nicht\ zusammenh\u00E4ngenden\ Graphen\ an.\n\ Am\ Ende\ Ausgabe\ der\ Adjazenzmatrix\ zur\ Kontrolle\n
+comment7.params=nameStartKnoten
+comment7.target=void\ TiefensucheAusf\u00FChren(java.lang.String)
+comment7.text=\n\ F\u00FChrt\ die\ Tiefensuche\ vom\ Startknoten\ aus\ durch\n\ @param\ startKnoten\ der\ Bezeichner\ des\ Startknotens\n
+numComments=8
