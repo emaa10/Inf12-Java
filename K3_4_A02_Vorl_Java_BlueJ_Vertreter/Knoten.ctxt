@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Knoten
+comment0.text=\n\ Beschreibt\ einen\ Knoten\n\ \n\ @author\ Albert\ Wiedemann\n\ @version\ 1.0\n
+comment1.params=bezeichner\ x\ y\ kunde\ laden
+comment1.target=Knoten(java.lang.String,\ int,\ int,\ boolean,\ boolean)
+comment1.text=\n\ Besetzt\ die\ Attribute\ und\ legt\ das\ Knotensymbol\ an.\n\ @param\ bezeichner\ Bezeichner\n\ @param\ x\ x-Koordinate\n\ @param\ y\ y-Koordinate\n\ @param\ kunde\ gibt\ an,\ ob\ an\ diesem\ Knoten\ eine\ Kunde\ vorhanden\ ist\n\ @param\ laden\ gibt\ an,\ ob\ an\ diesem\ Knoten\ eine\ Gesch\u00E4ft\ vorhanden\ ist\n
+comment2.params=
+comment2.target=java.lang.String\ BezeichnerGeben()
+comment2.text=\n\ Meldet\ den\ Bezeichner\ des\ Knotens\ zur\u00FCck.\n\ @return\ Bezeichner\n
+comment3.params=
+comment3.target=KnotenSymbol\ SymbolGeben()
+comment3.text=\n\ Meldet\ das\ Symbol\ des\ Knotens\ zur\u00FCck.\n\ @return\ Bezeichner\n
+comment4.params=f
+comment4.target=void\ FarbeSetzen(java.lang.String)
+comment4.text=\n\ Setzt\ die\ Farbe\ der\ Darstellung\n\ @param\ f\ die\ (neue)\ Farbe\n
+comment5.params=
+comment5.target=boolean\ IstKundeVorhanden()
+comment5.text=\n\ Meldet\ zur\u00FCck,\ ob\ an\ diesem\ Knoten\ ein\ Kunde\ vorhanden\ ist\n\ @return\ wahr,\ wenn\ an\ diesem\ Knoten\ ein\ Kunde\ vorhanden\ ist\n
+comment6.params=
+comment6.target=boolean\ IstLadenVorhanden()
+comment6.text=\n\ Meldet\ zur\u00FCck,\ ob\ an\ diesem\ Knoten\ ein\ Laden\ vorhanden\ ist\n\ @return\ wahr,\ wenn\ an\ diesem\ Knoten\ ein\ Laden\ vorhanden\ ist\n
+numComments=7

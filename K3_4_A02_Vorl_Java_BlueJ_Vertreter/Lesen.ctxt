@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Lesen
+comment0.text=\n\ Stellt\ Methoden\ zum\ Lesen\ der\ Graphendaten\ bereit\n\ \n\ @author\ Albert\ Wiedemann\ \n\ @version\ 1.0\n
+comment1.params=name\ g
+comment1.target=boolean\ LesenDatenbank(java.lang.String,\ GraphMatrix)
+comment1.text=\n\ Liest\ die\ Datenbank\ unter\ dem\ gegebenen\ Namen\ ein\ und\ tr\u00E4gt\ die\ Daten\ in\ den\ Graphen\ ein.\n\ @param\ name\ Name\ (und\ Pfad)\ der\ Datenbankcontainerdatei\n\ @param\ g\ das\ Graphenobjekt,\ in\ dem\ die\ Daten\ eingetragen\ werden\ sollen\n
+numComments=2

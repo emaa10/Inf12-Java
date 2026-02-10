@@ -1,0 +1,36 @@
+#BlueJ class context
+comment0.target=GraphMatrix
+comment0.text=\n\ Verwaltet\ einen\ ungerichteten,\ gewichteten\ Graphen\ mittels\ Adjazenzmatrix\n\ \n\ @author\ Albert\ Wiedemann\ \n\ @version\ 1.0\n
+comment1.params=
+comment1.target=GraphMatrix()
+comment1.text=\n\ Baut\ die\ Datenstruktur\ auf\n
+comment10.params=aktuell
+comment10.target=boolean\ KnotenBesuchen(int)
+comment10.text=\n\ Setzt\ den\ Rekursionsschritt\ bei\ einem\ Knoten\ um.\n\ @param\ aktuell\ die\ Nummer\ des\ aktuell\ zu\ besuchenden\ Knotens\n
+comment11.params=startKnoten
+comment11.target=void\ TiefensucheAusf\u00FChren(int)
+comment2.params=bezeichner\ x\ y\ kunde\ laden
+comment2.target=void\ KnotenEinf\u00FCgen(java.lang.String,\ int,\ int,\ boolean,\ boolean)
+comment2.text=\n\ Einf\u00FCgen\ eines\ neuen\ Knoten\ in\ den\ Graphen\n\ @param\ bezeichner\ Bezeichner\ des\ neuen\ Knotens,\ der\ dem\ Graphen\ hinzugef\u00FCgt\ wird.\n\ @param\ x\ x-Koordinate\ f\u00FCr\ die\ Anzeige\ des\ Knotens\n\ @param\ y\ y-Koordinate\ f\u00FCr\ die\ Anzeige\ des\ Knotens\n\ @param\ kunde\ gibt\ an,\ ob\ an\ diesem\ Knoten\ eine\ Kunde\ vorhanden\ ist\n\ @param\ laden\ gibt\ an,\ ob\ an\ diesem\ Knoten\ eine\ Gesch\u00E4ft\ vorhanden\ ist\n
+comment3.params=bezeichner
+comment3.target=Knoten\ KnotenGeben(java.lang.String)
+comment3.text=\n\ Gibt\ den\ Knoten\ mit\ dem\ angegebenen\ Bezeichner\ zur\u00FCck.\n\ Wenn\ ein\ Knoten\ mit\ diesem\ Bezeichner\ nicht\ bekannt\ ist,\ wird\ null\ zur\u00FCckgegeben\n\ @param\ bezeichner\ Bezeichner\ des\ Knoten\ der\ gesucht\ wird\n\ @return\ Referenz\ auf\ das\ Knotenobjekt\ oder\ null\n
+comment4.params=bezeichner
+comment4.target=int\ KnotenNummerGeben(java.lang.String)
+comment4.text=\n\ Gibt\ die\ interne\ Nummer\ des\ Knotens\n\ Wenn\ ein\ Knoten\ mit\ diesem\ Bezeichner\ nicht\ bekannt\ ist,\ wird\ -1\ zur\u00FCckgegeben\n\ @param\ bezeichner\ Bezeichner\ des\ Knoten\ der\ gesucht\ wird\n\ @return\ Indexnummer\ des\ Knotens\ im\ Knotenfeld;\ 0\ <\=\ res\ <\=\ knoten.size()-1\ bzw.\ -1\n
+comment5.params=knotenNummer
+comment5.target=java.lang.String\ KnotenBezeichnerGeben(int)
+comment5.text=\n\ Gibt\ die\ Bezeichnung\ eines\ Knotens\ mit\ der\ internen\ Knotennummer\n\ @param\ Indexnummer\ des\ Knotens\ im\ Knotenarray;\ 0<\=\ x\ <\=\ knoten.size()\n\ @return\ Bezeichner\ des\ Knotens\n
+comment6.params=von\ nach\ gewichtung
+comment6.target=void\ KanteEinf\u00FCgen(java.lang.String,\ java.lang.String,\ int)
+comment6.text=\n\ Einf\u00FCgen\ einer\ Kante\ in\ den\ Graphen\n\ Eine\ Kante\ ist\ durch\ einen\ Anfangsknoten\ und\ einen\ Endknoten\ festgelegt\ und\ hat\ eine\ Gewichtung\n\ @param\ von\ Bezeichner\ des\ Anfangsknotens\n\ @param\ nach\ Bezeichner\ des\ Endknotens\n\ @param\ gewichtung\ Gewichtung\ der\ Kante\ als\ Ganzzahl\n
+comment7.params=
+comment7.target=int\ KnotenAnzahlGeben()
+comment7.text=\n\ Gibt\ die\ Anzahl\ der\ Knoten\ des\ Graphen\ zur\u00FCck\n\ @return\ \ Anzahl\ der\ Knoten\n
+comment8.params=von\ nach
+comment8.target=int\ KanteGewichtGeben(java.lang.String,\ java.lang.String)
+comment8.text=\n\ Gibt\ die\ Gewichtung\ einer\ Kante\ zur\u00FCck\n\ Die\ Kante\ ist\ durch\ einen\ Anfangsknoten\ und\ einen\ Endknoten\ festgelegt\n\ @param\ von\ Bezeichner\ des\ Anfangsknotens\n\ @param\ nach\ Bezeichner\ des\ Endknotens\n\ @return\ Gewichtung\ der\ Kante\n
+comment9.params=
+comment9.target=void\ Zur\u00FCckSetzen()
+comment9.text=\n\ L\u00F6scht\ die\ Kanten\ und\ Knoten\ des\ Graphen\n\ Die\ Anzeige\ wird\ auch\ gel\u00F6scht\n
+numComments=12

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Vertreter
+comment0.text=\n\ Rahmenprogramm\ f\u00FCr\ die\ Vertreterreise\n\ \n\ @author\ Albert\ Wiedemann\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=Vertreter()
+comment1.text=\n\ Legt\ das\ Graphenobjekt\ an.\n
+comment2.params=start
+comment2.target=void\ SucheDurchf\u00FChren(java.lang.String)
+comment2.text=\n\ Startet\ die\ Besuche\ der\ Knoten.\n\ @param\ start\ Name\ des\ Startknotens\n
+numComments=3
