@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Lagerist
+comment1.params=helmfarbe\ nummer
+comment1.target=Lagerist(java.lang.String,\ int)
+comment1.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Lagerist\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\n\ Schiebt\ eine\ Kiste\ bis\ zum\ rechten\ Rand\ des\ Zeichenfensters.\n
+numComments=3

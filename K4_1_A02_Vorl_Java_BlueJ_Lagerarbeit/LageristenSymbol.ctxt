@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=LageristenSymbol
+comment0.text=\r\n\ Darstellung\ eines\ Lageristen\r\n\ \r\n\ @author\ Johannes\ Neumeyer\r\n\ @version\ 1.0\r\n
+comment1.params=helmfarbe\ nummer
+comment1.target=LageristenSymbol(java.lang.String,\ int)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ LageristenSymbol\r\n
+comment2.params=millis
+comment2.target=void\ Warten(int)
+comment2.text=\r\n\ Unterbricht\ die\ Programmausf\u00FChrung\ f\u00FCr\ die\ angegebene\ Zeit.\r\n
+numComments=3
